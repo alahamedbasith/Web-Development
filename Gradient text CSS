@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>gradient text</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		*{
+			margin:0;
+			padding:0;
+			font-family: sans-serif;
+		}
+		body{
+			background-color: #000;
+		}
+		.container > h1 {
+			font-size: 2rem;
+			position:absolute;
+			top:50%;
+			left:30%;
+			color:#fff;
+			text-transform: uppercase;
+                        background:linear-gradient(90deg,#9400D3,#4B0082,#0000FF,#00FF00,#FFFF00,#FF7F00,#FF0000);
+			-webkit-text-fill-color:transparent;
+			-webkit-background-clip:text;
+		}
+		.container > h1:hover{
+			font-size: 4rem;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>programming with ahamed</h1>
+	</div>
+</body>
+</html>
